@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html lang="es">
+<html>
  <head> 
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no"/>
  
-  <title>Ahorcado</title>
+  <title>Mi aplicacion</title>
 
   <!--grupo CSS-->
   <link rel="stylesheet" href="css/jquery.mobile-1.4.5.min.css" />
@@ -26,17 +26,42 @@
  <!-- Principal -->
  <div data-role="page" id="principal" >   
   <div data-role="header">
-    <h1>Encabezado</h1>
+    <h1>Ahorcado</h1>
+  </div>
+
+  <div data-role="main" class="ui-content">
+    <a href="#" class="ui-btn ui-btn-corner-all ui-icon-alert ui-btn-icon-right">Jugar</a>
+  </div>
+  
+  <a href="#opciones" class="ui-btn ui-btn-corner-all ui-icon-alert ui-btn-icon-right">Opciones</a>
+  </div>
+
+ <!-- Principal -->
+ 
+  <!-- Opciones -->
+ <div data-role="page" id="opciones" >   
+  <div data-role="header">
+    <h1>Opciones</h1>
+  </div>
+
+  <div data-role="main" class="ui-content">
+    <a href="#" class="ui-btn ui-btn-corner-all ui-icon-alert ui-btn-icon-right ui-btn-icon-audio">Sonido</a>
+  </div>
+   <a href="#" class="ui-btn ui-btn-corner-all ui-icon-alert ui-btn-icon-right ui-btn-icon-power">Vibrar</a>
+  </div>
+  
+ <!-- Opciones -->
+ 
+  <!-- Principal -->
+ <div data-role="page" id="principal" >   
+  <div data-role="header">
+    <h1>Ahorcado</h1>
   </div>
 
   <div data-role="main" class="ui-content">
     <a href="#" class="ui-btn ui-btn-corner-all ui-icon-alert ui-btn-icon-right">click</a>
   </div>
 
-  <div data-role="footer">
-    <h1>Pie</h1>
-  </div>
- </div>  
  <!-- Principal -->
 
  </body>
